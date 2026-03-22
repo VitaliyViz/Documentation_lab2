@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext"],
+    "types": ["node"],
+    
+    /* Декоратори — без них TypeORM не працюватиме */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Налаштування модулів */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    /* Шляхи */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Суворість */
+    "strict": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false 
+  }
+}
